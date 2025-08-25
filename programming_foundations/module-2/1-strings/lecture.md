@@ -113,3 +113,11 @@ console.log("a".charCodeAt(0));
 
 - split
 - join
+- trim
+- toLowerCase
+- toUpperCase
+- padStart
+- padEnd
+- slice
+- substring
+- replace
