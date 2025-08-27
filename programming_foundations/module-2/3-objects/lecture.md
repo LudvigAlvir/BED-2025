@@ -89,3 +89,16 @@ console.log(student.course);
 student.changeCourse("BED");
 console.log(student.course);
 ```
+
+---
+
+## Methods
+
+```js
+const object = {
+  name: "Markus",
+  getName: () => {
+    console.log(this.name);
+  },
+};
+```
