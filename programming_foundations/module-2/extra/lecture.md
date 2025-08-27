@@ -33,7 +33,7 @@ window.addEventlistener("click", () => {
 ```js
 const btn1 = document.getElementById("btn1");
 const btn2 = document.querySelector("#btn2");
-btn1.onClick = () => {
+btn1.onclick = () => {
   console.log("button 1 clicked");
 };
 btn2.addEventListener("click", () => {
@@ -51,6 +51,6 @@ const btn2 = document.querySelector("#btn2");
 function btnClick() {
   console.log("button was clicked");
 }
-btn1.onClick = btnClick;
+btn1.onclick = btnClick;
 btn2.addEventListener("click", btnClick);
 ```
